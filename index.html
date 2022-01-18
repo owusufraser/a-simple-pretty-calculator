@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple But Pretty Calculator</title>
+    <link rel="stylesheet" href="calculator.css"/>
+</head>
+
+<body>
+    <h1>A Simple But Pretty Calculator</h1>
+    <p>What do you want to calculate today earthling?</p>
+    <div>
+        <input type="text" id="number1">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="*">x</option>
+            <option value="/">÷</option>
+            <option value="-">-</option>
+        </select>
+        <input type="text" id="number2">
+        <button id="calculateBtn">Calculate!</button>
+        <input type="text" id="result" disabled>
+    </div>
+
+    <script src="calculator.js"></script> 
+</body>
+</html>
